@@ -31,17 +31,6 @@
 
 /* END: General styles */
 
-/* START: Home styles */
-
-.home__cars-wrapper {
-  @apply grid 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full gap-8 pt-14;
-}
-
-.home__error-container {
-  @apply mt-16 flex justify-center items-center flex-col gap-2;
-}
-/* END: Home styles */
-
 /* START: Car Card styles */
 .car-card {
   @apply flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl;
@@ -52,7 +41,7 @@
 }
 
 .car-card__content-title {
-  @apply text-[22px] leading-[26px] font-bold capitalize;
+  @apply text-[22px] leading-[26px] font-bold capitalize  ;
 }
 
 .car-card__price {
@@ -112,36 +101,6 @@
 }
 /* END: Custom Filter styles */
 
-/* START: Footer styles */
-.footer {
-  @apply flex flex-col text-black-100  mt-5 border-t border-gray-100;
-}
-
-.footer__links-container {
-  @apply flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10;
-}
-
-.footer__rights {
-  @apply flex flex-col justify-start items-start gap-6;
-}
-
-.footer__links {
-  @apply flex-1 w-full flex md:justify-end flex-wrap max-md:mt-10 gap-20;
-}
-
-.footer__link {
-  @apply flex flex-col gap-6 text-base min-w-[170px];
-}
-
-.footer__copyrights {
-  @apply flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10;
-}
-
-.footer__copyrights-link {
-  @apply flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10;
-}
-/* END: Footer styles */
-
 /* START: searchbar styles */
 .searchbar {
   @apply flex items-center justify-start max-sm:flex-col w-full relative max-sm:gap-4 max-w-3xl;
@@ -166,7 +125,7 @@
 }
 
 .search-manufacturer__options {
-  @apply absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm;
+  @apply absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm z-50;
 }
 
 .search-manufacturer__option {

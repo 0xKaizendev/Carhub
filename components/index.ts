@@ -5,5 +5,8 @@ import Footer from "./Footer";
 import SearchBar from "./SearchBar";
 import Filter from "./Filter";
 import SearchManufacturer from "./SearchManufacturer";
+import CarCard from "./CarCard";
+import CarDetails from "./CarDetails";
+import ShowMore from "./ShowMore";
 
-export { Hero, CustomButton, Navbar,Footer,SearchBar,Filter,SearchManufacturer };
+export {CarCard, Hero, CustomButton,ShowMore, Navbar,CarDetails,Footer,SearchBar,Filter,SearchManufacturer };

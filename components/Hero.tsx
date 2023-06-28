@@ -2,10 +2,6 @@
 import React from 'react';
 import Image from 'next/image';
 import CustomButton from './CustomButton';
-interface HeroProps {
-
-};
-
 export default function Hero({ }) {
     const handleScroll = () => { }
     return (

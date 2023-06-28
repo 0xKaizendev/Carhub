@@ -2,10 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import CustomButton from './CustomButton';
 import Link from 'next/link';
-interface NavbarProps {
-
-};
-
 export default function Navbar({ }) {
     return (
         <header className=' absolute w-full z-10'>
