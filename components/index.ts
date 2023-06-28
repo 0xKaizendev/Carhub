@@ -8,5 +8,6 @@ import SearchManufacturer from "./SearchManufacturer";
 import CarCard from "./CarCard";
 import CarDetails from "./CarDetails";
 import ShowMore from "./ShowMore";
+import Analytics from "./Analytics";
 
-export {CarCard, Hero, CustomButton,ShowMore, Navbar,CarDetails,Footer,SearchBar,Filter,SearchManufacturer };
+export {CarCard, Hero, CustomButton,ShowMore,Analytics, Navbar,CarDetails,Footer,SearchBar,Filter,SearchManufacturer };
